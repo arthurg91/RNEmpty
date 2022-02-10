@@ -4,9 +4,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import SettingsScreen from './settings';
 import WatchingScreen from './watch';
 import StreamingScreen from './stream';
-import { LogBox } from 'react-native';
-LogBox.ignoreLogs(['new NativeEventEmitter']); // Ignore log notification by message
-LogBox.ignoreAllLogs(); //Ignore all log notifications
 
 const Tab = createBottomTabNavigator();
 
